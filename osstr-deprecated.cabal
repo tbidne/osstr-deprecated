@@ -1,0 +1,26 @@
+cabal-version:      2.4
+name:               osstr-deprecated
+version:            0.1
+license:            MIT
+license-file:       LICENSE
+copyright:          2023 Thomas Bidne
+author:             Thomas Bidne
+maintainer:         tbidne@protonmail.com
+homepage:           https://github.com/tbidne/osstr-deprecated/
+bug-reports:        https://github.com/tbidne/osstr-deprecated/issues
+extra-source-files:
+  CHANGELOG.md
+  README.md
+
+source-repository head
+  type:     git
+  location: https://github.com/tbidne/osstr-deprecated
+
+library
+  exposed-modules:  Lib
+  build-depends:
+    , base      ^>=4.18.0.0
+    , filepath  ==1.4.200.0
+
+  hs-source-dirs:   src
+  default-language: Haskell2010
