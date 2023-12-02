@@ -19,8 +19,8 @@ source-repository head
 library
   exposed-modules:  Lib
   build-depends:
-    , base      ^>=4.18.0.0
-    , filepath  ==1.4.200.0
+    , base      ^>=4.19.0.0
+    , filepath  ==1.4.200.1
 
   hs-source-dirs:   src
   default-language: Haskell2010
