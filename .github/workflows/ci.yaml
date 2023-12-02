@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - deprecate-hidden
 
   pull_request:
     branches:
